@@ -1,6 +1,11 @@
 import React from 'react';
 import styles from './App.module.css';
-import Hello from './Hello'
+import Hello from './Hello';
+import Navbar from './Components/Navbar';
+import Clientele from './Components/Clientele';
+import Testimonials from './Components/Testimonials';
+import Product from './Components/Product';
+import Footer from './Components/Footer';
 import {SectionsContainer, Section, Header, Footer} from 'react-fullpage';
 
 function App() {
@@ -17,25 +22,27 @@ function App() {
 
 	  return (
 	  	<div>
+	  	  <Navbar />
 		  <Header className={styles.header}>
 		    <a href="#sectionOne" className="opa">Section One</a>
 		    <a href="#sectionTwo">Section Two</a>
 		    <a href="#sectionThree">Section Three</a>
 		  </Header>
 		  <Footer>
-		    <a href="" className="opa">Dcoumentation</a>
-		    <a href="">Example Source</a>
-		    <a href="">About</a>
+		    <Footer />
 		  </Footer>
 		  <SectionsContainer {...options}>
 		    <Section className = {styles.section1}>
 		    	<Hello />
 		    </Section>
 		    <Section className = {styles.section2}>
-		    	Page 2
+		    	<Products />
 		    </Section>
 		    <Section className = {styles.section3}>
-		    	Page 3
+		    	<Clientele />
+		    </Section>
+		    <Section className = {styles.section4}>
+		    	<Testimonials />
 		    </Section>
 		  </SectionsContainer>
 		 </div>
