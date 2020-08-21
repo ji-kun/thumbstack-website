@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './App.module.css';
 import Hello from './Hello';
-import Navbar from './Components/Navbar';
-import Clientele from './Components/Clientele';
-import Testimonials from './Components/Testimonials';
-import Product from './Components/Product';
-import Footer from './Components/Footer';
-import {SectionsContainer, Section, Header, Footer} from 'react-fullpage';
+import Navbar from './Components/Navbar/Navbar';
+import Clientele from './Components/Clientele/Clientele';
+import Testimonials from './Components/Testimonials/Testimonials';
+import Products from './Components/Products/Products';
+import Footr from './Components/Footer/Footer';
+import {SectionsContainer, Section, Header} from 'react-fullpage';
 
 function App() {
 	let options={
@@ -28,9 +28,7 @@ function App() {
 		    <a href="#sectionTwo">Section Two</a>
 		    <a href="#sectionThree">Section Three</a>
 		  </Header>
-		  <Footer>
-		    <Footer />
-		  </Footer>
+		  <Footr />
 		  <SectionsContainer {...options}>
 		    <Section className = {styles.section1}>
 		    	<Hello />

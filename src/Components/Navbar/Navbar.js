@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Navbar.module.css';
-import Hello from './Hello'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {SectionsContainer, Section, Header, Footer} from 'react-fullpage';
 
@@ -14,7 +13,7 @@ function Navbar() {
 
 export default Navbar;
 
-React Router
+// React Router
 
 // import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 

@@ -1,6 +1,15 @@
 import React from 'react';
-import styles from './App.module.css';
+import styles from './Navbar.module.css';
 import Hello from './Hello'
-import {Router, Route, Switch} from "react-router"
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {SectionsContainer, Section, Header, Footer} from 'react-fullpage';
 
+function Header() {
+	return(
+		<div>
+			
+		</div>
+	);
+}
+
+export default Header;
