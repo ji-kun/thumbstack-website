@@ -45,7 +45,7 @@ function App() {
 		    	<Hello />
 		    </Section>
 		    <Section className = {styles.section2}>
-		    	<Products />
+		    	<Contact />
 		    </Section>
 		    <Section className = {styles.section3}>
 		    	<Clientele />

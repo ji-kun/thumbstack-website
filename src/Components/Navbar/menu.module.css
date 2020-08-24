@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;900&display=swap');
+*{
+	font-family: 'Poppins', sans-serif;
+}
 .menuWrap {
 	position: fixed;
 	top:0;
@@ -95,7 +99,7 @@
 	justify-content: center;
 }
 .menuWrap .menu > div {
-	background: rgba(24,39,51,0.85);
+	background: rgba(66, 245, 164,0.85);
 	width: 100vw;
 	height: 50vw;
 	display: flex;

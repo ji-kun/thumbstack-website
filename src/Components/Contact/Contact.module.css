@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;900&display=swap');
+
+
+.display {
+	position: relative;
+	top: 200px;
+	left: 65px;
+	display: flex;
+	flex-direction: row;
+	width: 50vw;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.subsub{
+	width: 40vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 30px 40px 0px; 
+}
+.q {
+	position: relative;
+	width: 430px;
+	height: 206px;
+	left: 65px;
+	top: 180px;
+
+}
+.still {
+	font-size: 40px;
+	color: #CBCBCB;
+	font-weight: 400;
+}
+.question {
+	font-size: 70px;
+	color: #000000;
+	font-weight: 600;
+}
+.head {
+	color: #F48023;
+	font-size: 24px;
+	font-weight: 400;
+}
+.bod {
+	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+@media(max-width: 640px;){
+	.display {
+		width: 100vw;
+	}
+}
+
