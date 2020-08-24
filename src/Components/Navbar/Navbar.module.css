@@ -1,0 +1,39 @@
+:root {
+	--primary-color: rgba(13,110,139,0.75);
+	--overlay-color: rgba(24,39,51,0.85);
+	--menu-speed: 0.75s;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	line-height: 1.4;
+}
+
+.overlay {
+	list-style: none;
+	text-decoration: none;
+	text-color: white;
+	font-size: 1.5rem;
+	padding: 1rem;
+	transition: color 0.4s ease;
+}
+li {
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+	padding: 2rem;
+	transition: color 0.4s ease;
+	text-align: center;
+}
+.links {
+	text-decoration: none;
+}
+
+li:hover {
+	font-size: 2rem;
+	text-decoration: underline;
+	transition: all 0.75s ease;
+}
