@@ -27,7 +27,7 @@
 	width: 60px;
 	height: 60px;
 	padding: 1rem;
-	background: #001D41;
+	background: #6F79FF;
 	opacity: 0.75;
 	color: white;
 	display: flex;
@@ -99,7 +99,7 @@
 	justify-content: center;
 }
 .menuWrap .menu > div {
-	background: rgba(66, 245, 164,0.85);
+	background: #6F79FF;
 	width: 100vw;
 	height: 50vw;
 	display: flex;

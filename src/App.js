@@ -26,15 +26,8 @@ function App() {
 
 	  return (
 	  	<div>
-	  		 <Router>
-				<Switch>
-					<Route path= "/about" component={About} />
-					<Route path= "/services" component={Services} />
-					<Route path= "/contact" component={Contact} />
-				</Switch>
-		  	</Router>
 	  	  <Navbar />
-		   <Header className={styles.header}>
+		  			<Header className={styles.header}>
 		    <a href="#sectionOne" className="opa"></a>
 		    <a href="#sectionTwo"></a>
 		    <a href="#sectionThree"></a>
@@ -48,10 +41,10 @@ function App() {
 		    	<Contact />
 		    </Section>
 		    <Section className = {styles.section3}>
-		    	<Clientele />
+		    	<Testimonials />
 		    </Section>
 		    <Section className = {styles.section4}>
-		    	<Testimonials />
+		    	<Clientele />
 		    </Section>
 		  </SectionsContainer>
 		 </div>
@@ -59,3 +52,4 @@ function App() {
 }
 
 export default App;
+

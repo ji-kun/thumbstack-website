@@ -1,17 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap');
 
-.Home {
-  background-color: #001D41;
+.Home {/*
+  background: linear-gradient(180deg, #6B7AFA 0%, #8094F9 100%);*/
+  background: #6F79FF;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.homeDesign{
+  width: 100vw;
+  height: 90vw;
+  display: flex;
+}
+.logo{
+  padding: 20px 0 0 20px;
+  height: 10vh;
+}
+.logoAdjust{
+  height: 5vh;
+}
+.text {
+  position: relative;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 15%;
+}
+.image {
+  width: 50vw;
+}
+.button{
   display: flex;
   justify-content: center;
   align-items: center;
+  background: white;
+  padding:30px;
+  width: 10vw;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #3D4CCD;
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.25));
+}
+.imageAdjust {
+  width: 50vw;
 }
 
-h1{
+.homeText1 {
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  font-size: 4rem;
+  color: white;
+}
+.homeText2 {
+  /*font-family: 'EB Garamond', serif;*/
   font-family: 'Poppins', sans-serif;
-  font-weight: 900;
-  font-size: 3rem;
+  font-weight: 300;
+  font-size: 2rem;
   color: white;
 }
 
