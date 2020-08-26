@@ -15,7 +15,7 @@ import {SectionsContainer, Section, Header} from 'react-fullpage';
 function App() {
 	let options={
 		sectionClassName:     'section',
-	    anchors:              ['sectionOne', 'sectionTwo', 'sectionThree'],
+	    anchors:              ['sectionOne', 'sectionTwo', 'sectionThree','sectionFour'],
 	    scrollBar:            false,
 	    navigation:           true,
 	    verticalAlign:        false,
@@ -27,11 +27,12 @@ function App() {
 	  return (
 	  	<div>
 	  	  <Navbar />
-		  			<Header className={styles.header}>
-		    <a href="#sectionOne" className="opa"></a>
-		    <a href="#sectionTwo"></a>
-		    <a href="#sectionThree"></a>
-		  </Header>
+		  	<Header className={styles.header}>
+			    <a href="#sectionOne" className="opa"></a>
+			    <a href="#sectionTwo"></a>
+			    <a href="#sectionThree"></a>
+			    <a href="#sectionFour"></a>
+			  </Header>
 		  <Footr />
 		  <SectionsContainer {...options}>
 		    <Section className = {styles.section1}>
@@ -41,10 +42,10 @@ function App() {
 		    	<Contact />
 		    </Section>
 		    <Section className = {styles.section3}>
-		    	<Testimonials />
+		    	<Clientele />
 		    </Section>
 		    <Section className = {styles.section4}>
-		    	<Clientele />
+		    	<Testimonials />
 		    </Section>
 		  </SectionsContainer>
 		 </div>

@@ -1,0 +1,21 @@
+.cards{
+	display: flex;
+}
+.card{
+	height: 300px;
+	width: 300px;
+	border-radius: 20px;
+}
+.cardimg{
+	height: 200px;
+	z-index: 2;
+}
+.cardinfo{
+
+}
+.heading{
+
+}
+.subtext{
+	font-weight: 300;
+}

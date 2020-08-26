@@ -39,7 +39,8 @@
   align-items: center;
   background: white;
   padding:30px;
-  width: 10vw;
+  border-radius: 5px;
+  width: 300px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
@@ -52,7 +53,7 @@
 
 .homeText1 {
   font-family: 'EB Garamond', serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 4rem;
   color: white;
 }

@@ -17,10 +17,11 @@ ReactDOM.render(
   <React.StrictMode>
   			<Router>
 				<Switch>
-					<Route path= "/" exact component={App} />
-					<Route path= "/about" exact component={About} />
-					<Route path= "/services" exact component={Services} />
-					<Route path= "/contact"  exact component={Contact} />
+					<Route exact path= "/" ><App /></Route>
+					<Route exact path= "/about" ><About /></Route>
+					<Route exact path= "/services" ><Services /></Route>
+					<Route exact path= "/contact" ><Contact /></Route>
+
 				</Switch>
 		  	</Router>
     <App />
