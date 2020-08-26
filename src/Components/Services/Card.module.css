@@ -1,21 +1,68 @@
-.cards{
-	display: flex;
+.cards {
+	padding: 100px;
 }
 .card{
-	height: 300px;
-	width: 300px;
-	border-radius: 20px;
+	width: 490px;
+	height: 490px;
+	border-radius: 42px;
+	background: url('../../assets/hero.jpg');
 }
 .cardimg{
-	height: 200px;
+	width: 438px;
+	height: 374px;
 	z-index: 2;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+	border-radius: 30px;
 }
 .cardinfo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 
+	position: relative;
+	left: 250px;
+	top: 60px;
+	width: 438px;
+	height: 374px;
+	z-index: 2;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+	border-radius: 42px;
 }
 .heading{
-
+	position: relative;
+	left: 10px;
+	padding: 10px;
+	font-size: 2rem;
 }
 .subtext{
+	position: relative;
+	left: 10px;
+	padding: 10px;
 	font-weight: 300;
+	font-size: 1.2rem;
 }
+.learn {
+	position: relative;
+	font-weight: 300;
+	font-size: 1.2rem;
+	color: #cdcdcd;
+	left: 300px;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
