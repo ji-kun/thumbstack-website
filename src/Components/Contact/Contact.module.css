@@ -6,7 +6,7 @@
 	top: 200px;
 	left: 65px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	width: 50vw;
 }
 
@@ -49,6 +49,10 @@
 	color: #000;
 	font-size: 18px;
 	font-weight: 400;
+}
+.map {
+	width: 30vw;
+	left: 0;
 }
 
 @media(max-width: 640px;){

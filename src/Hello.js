@@ -2,6 +2,9 @@ import React from 'react';
 import styles from './Hello.module.css';
 import Home from './assets/home.png';
 import logo from './assets/logo.png';
+import instagram from './assets/instagram.svg';
+import facebook from './assets/facebook.svg';
+import linkedin from './assets/linkedin.svg';
 
 function Hello() {
 	return (
@@ -21,7 +24,15 @@ function Hello() {
 			  </div>
 		  </div>
 		  <div className={styles.social}>
-		  	
+		  	<a href="https://www.facebook.com/ThumbstackTechnologies">
+		  		<img src={facebook} className={styles.socialicon} />
+		  	</a>
+		  	<a href="https://www.instagram.com/thumbstack_tech/">
+		  		<img src={instagram} className={styles.socialicon} />
+		  	</a>
+		  	<a href="https://www.linkedin.com/company/thumbstacktechnologies">
+		  		<img src={linkedin} className={styles.socialicon} />
+		  	</a>
 		  </div>
 		</div>
 	);

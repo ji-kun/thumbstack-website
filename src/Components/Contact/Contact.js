@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Contact.module.css';
 import Navbar from '../Navbar/Navbar'
+import Home from '../../assets/maskGroup.png';
 import { Map, GoogleApiWrapper } from 'google-maps-react';
 
 function Contact() {
@@ -55,8 +56,6 @@ function Contact() {
 							</h3>
 						</div>
 					</div>
-				</div>
-				<div className = {styles.map}>
 				</div>
 			</div>
 		</div>
