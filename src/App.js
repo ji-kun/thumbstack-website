@@ -7,7 +7,7 @@ import Services from './Components/Services/Services';
 import About from './Components/About/About';
 import Clientele from './Components/Clientele/Clientele';
 import Testimonials from './Components/Testimonials/Testimonials';
-import Products from './Components/Products/Products';
+import Product from './Components/Products/Products';
 import Footr from './Components/Footer/Footer';
 import Contact from './Components/Contact/Contact';
 import {SectionsContainer, Section, Header} from 'react-fullpage';
@@ -39,7 +39,7 @@ function App() {
 		    	<Hello />
 		    </Section>
 		    <Section className = {styles.section2}>
-		    	<Contact />
+		    	<Product />
 		    </Section>
 		    <Section className = {styles.section3}>
 		    	<Clientele />

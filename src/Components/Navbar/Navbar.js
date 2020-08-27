@@ -5,7 +5,6 @@ import {BrowserRouter as Router,Link} from 'react-router-dom';
 
 function Navbar() {
 	return(
-		<Router>
 		<div className = {styles.root}>
 			<div className = {style.menuWrap}>
 				<input type = "checkbox" className = {style.toggler} />
@@ -33,7 +32,6 @@ function Navbar() {
 				</div>
 			</div>
 		</div>
-		</Router>
 	);
 }
 

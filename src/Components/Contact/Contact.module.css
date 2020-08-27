@@ -52,7 +52,17 @@
 }
 .map {
 	width: 30vw;
+	height: 30vw;
 	left: 0;
+}
+.mapAdjust {
+	width: 30vw;
+	height: 30vw;
+}
+.contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 @media(max-width: 640px;){
