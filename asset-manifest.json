@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/thumbstack-website/static/css/main.ec152ff7.chunk.css",
+    "main.js": "/thumbstack-website/static/js/main.635dd003.chunk.js",
+    "main.js.map": "/thumbstack-website/static/js/main.635dd003.chunk.js.map",
+    "runtime-main.js": "/thumbstack-website/static/js/runtime-main.69b97a58.js",
+    "runtime-main.js.map": "/thumbstack-website/static/js/runtime-main.69b97a58.js.map",
+    "static/js/2.def7074b.chunk.js": "/thumbstack-website/static/js/2.def7074b.chunk.js",
+    "static/js/2.def7074b.chunk.js.map": "/thumbstack-website/static/js/2.def7074b.chunk.js.map",
+    "index.html": "/thumbstack-website/index.html",
+    "precache-manifest.aa24d2b9d425b67b4a67757f12a923c7.js": "/thumbstack-website/precache-manifest.aa24d2b9d425b67b4a67757f12a923c7.js",
+    "service-worker.js": "/thumbstack-website/service-worker.js",
+    "static/css/main.ec152ff7.chunk.css.map": "/thumbstack-website/static/css/main.ec152ff7.chunk.css.map",
+    "static/js/2.def7074b.chunk.js.LICENSE.txt": "/thumbstack-website/static/js/2.def7074b.chunk.js.LICENSE.txt",
+    "static/media/Group 7.png": "/thumbstack-website/static/media/Group 7.7200ef72.png",
+    "static/media/Group 8.png": "/thumbstack-website/static/media/Group 8.be60abec.png",
+    "static/media/Group8.jpg": "/thumbstack-website/static/media/Group8.057339a2.jpg",
+    "static/media/Group9.jpg": "/thumbstack-website/static/media/Group9.c2e71451.jpg",
+    "static/media/bv.png": "/thumbstack-website/static/media/bv.144d70af.png",
+    "static/media/dbs.png": "/thumbstack-website/static/media/dbs.f5c7d25b.png",
+    "static/media/facebook.svg": "/thumbstack-website/static/media/facebook.82b27172.svg",
+    "static/media/group.png": "/thumbstack-website/static/media/group.cf27169e.png",
+    "static/media/hero.jpg": "/thumbstack-website/static/media/hero.c14e17cd.jpg",
+    "static/media/home.png": "/thumbstack-website/static/media/home.d9db32e9.png",
+    "static/media/indu.png": "/thumbstack-website/static/media/indu.27fe8f95.png",
+    "static/media/instagram.svg": "/thumbstack-website/static/media/instagram.ea1bb834.svg",
+    "static/media/linkedin.svg": "/thumbstack-website/static/media/linkedin.6934d4c4.svg",
+    "static/media/logo.png": "/thumbstack-website/static/media/logo.f991f51a.png",
+    "static/media/maskGroup.png": "/thumbstack-website/static/media/maskGroup.40134cc6.png",
+    "static/media/mountmusic.png": "/thumbstack-website/static/media/mountmusic.4b53bcac.png",
+    "static/media/nexus.png": "/thumbstack-website/static/media/nexus.f3fe85a4.png",
+    "static/media/pristine.png": "/thumbstack-website/static/media/pristine.fe777fd7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69b97a58.js",
+    "static/js/2.def7074b.chunk.js",
+    "static/css/main.ec152ff7.chunk.css",
+    "static/js/main.635dd003.chunk.js"
+  ]
+}
