@@ -12,8 +12,55 @@
 	width: 30vw;
 }
 .what {
+	position: relative;
+	left: -90px;
 	color: white;
 	font-size: 3rem;
 	font-weight: 400;
 	line-height: 5rem;
+	z-index: 2;
 }
+.header{
+	padding: 50px;
+}
+.clients {
+	font-size: 3rem;
+	font-weight: 400;
+}
+.underline {
+	width: 74px;
+	height: 4px;
+	background: #4B5A81;
+	border-radius: 50px;
+	transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.logos {
+	width: 70vw;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.logo{
+	width: 50vw;
+}
+
+.divi { 
+	width:150px; 
+	height:150px; 
+	border-radius:50%; 
+	margin-top:180px; 
+	transform-origin:200% center; 
+	position:relative; 
+	animation:rotate 30s linear infinite; 
+}
+.divi:before { 
+	content:''; 
+	position:absolute; 
+	height:100%; 
+	width:100%; 
+	border-radius:50%; 
+	background:#072E4B; 
+	animation:rotate 30s linear reverse infinite; 
+}
+@keyframes rotate { 100% { transform:rotate(-360deg); } }

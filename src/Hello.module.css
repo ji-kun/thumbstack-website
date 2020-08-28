@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap');
 
-.Home {/*
-  background: linear-gradient(180deg, #6B7AFA 0%, #8094F9 100%);*/
+.Home {
   background: #6F79FF;
   display: flex;
   flex-direction: column;
@@ -47,6 +46,9 @@
   color: #3D4CCD;
   filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.25));
 }
+.button:hover {
+  padding: 35px;
+}
 .imageAdjust {
   width: 50vw;
 }
@@ -81,8 +83,17 @@
   fill: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  
+@media only screen and (max-width: 600px) {
+  .homeText1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: white;
+  }
+  .image{
+    position: relative;
+    bottom: 10px;
+  }
 }
 
 @keyframes App-logo-spin {

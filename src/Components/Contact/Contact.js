@@ -8,7 +8,6 @@ import { Map, GoogleApiWrapper } from 'google-maps-react';
 function Contact() {
 	return(
 		<div>
-			<Router>
 			<Navbar />
 			<div className = {styles.q}>
 				<h2 className = {styles.still}>Still have a</h2>
@@ -62,12 +61,11 @@ function Contact() {
 					</div>
 				</div>
 				<div className = {styles.map}>
-						<Link to="https://www.google.com/maps/place/Matru+Shraddha+Housing+Society/@19.2057739,72.9547459,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7b920ae5010a9:0x3ab0d5d2665afef1!8m2!3d19.2057739!4d72.9569346">
+						<a href="https://www.google.com/maps/place/Matru+Shraddha+Housing+Society/@19.2057739,72.9547459,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7b920ae5010a9:0x3ab0d5d2665afef1!8m2!3d19.2057739!4d72.9569346">
 							<img src={Home} className={styles.mapAdjust} />
-						</Link>
+						</a>
 				</div>
 			</div>
-			</Router>
 		</div>
 	);
 }

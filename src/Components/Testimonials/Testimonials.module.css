@@ -1,0 +1,33 @@
+.rightBlob {
+	width: 40vw;
+	height: 90vh;
+	background: #001D41;
+	border-radius: 0px 0px 80px 0px;
+}
+.circle {
+	position: relative;
+	top: 20vh;
+	left: 7vw;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	background: #072E4B;
+}
+.saying {
+	position: relative;
+	top: 12vh;
+	left: 10vw;
+	color: white;
+	font-size: 4.5rem;
+	font-weight: 400;
+}
+.quote {
+	position: relative;
+	left: 8vw;
+	color: #41CBAF;
+	font-size: 7rem;
+	font-weight: 400;
+	z-index: 2;
+	line-height: 20rem;
+	float: left;
+}

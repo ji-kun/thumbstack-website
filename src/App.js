@@ -26,7 +26,6 @@ function App() {
 
 	  return (
 	  	<div>
-	  	  <Navbar />
 		  	<Header className={styles.header}>
 			    <a href="#sectionOne" className="opa"></a>
 			    <a href="#sectionTwo"></a>
