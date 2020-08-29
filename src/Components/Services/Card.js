@@ -4,7 +4,7 @@ import styles from './Card.module.css';
 function Card(props) {
 	return(
 	<div className={styles.cards}>
-		<div className={styles.card}>
+		<div className={styles.card} >
 			<div className={styles.cardinfo}>
 				<h3 className={styles.heading}>
 					{props.head}

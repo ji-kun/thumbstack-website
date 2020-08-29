@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+
 .cards {
 	padding: 100px;
 }
@@ -5,7 +7,8 @@
 	width: 490px;
 	height: 490px;
 	border-radius: 42px;
-	background: url('../../assets/hero.jpg');
+	background: url('../../assets/mobile.jpeg');
+	font-family: 'Poppins', sans-serif;
 }
 .cardimg{
 	width: 438px;
@@ -52,6 +55,43 @@
 	text-decoration: underline;
 }
 
+@media only screen and (max-width: 600px) {
+	.card{
+		height: 290px;
+		width: 290px;
+	}
+	.cardimg {
+		width: 238px;
+		height: 174px;
+	}
+	.cardinfo {
+		position: relative;
+		left: 110px;
+		top: 30px;
+		width: 230px;
+		height: 230px;
+	}
+	.heading{
+		position: relative;
+		left: 10px;
+		top: 20px;
+		font-size: 1.2rem;
+	}
+	.subtext{
+		position: relative;
+		left: 10px;
+		font-weight: 300;
+		font-size: 0.8rem;
+	}
+	.learn {
+		display: none;
+		font-weight: 300;
+		font-size: 0.7rem;
+		color: #cdcdcd;
+		left: 300px;
+		text-decoration: underline;
+	}
+}
 
 
 

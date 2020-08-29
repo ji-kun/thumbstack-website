@@ -84,15 +84,31 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .homeDesign {
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+  }
+  .text {
+    width: 100%;
+  }
   .homeText1 {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
   }
+  .button {
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 1.2rem;
+    width: 60vw;
+  }
   .image{
-    position: relative;
-    bottom: 10px;
+    width: 100%
+  }
+  .imageAdjust{
+    width: 100%
   }
 }
 

@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;900&display=swap');
+.box {
+	display: flex;
+	flex-direction: row;
+	font-family: 'Poppins', sans-serif;
+}
 .rightBlob {
 	width: 40vw;
 	height: 90vh;
 	background: #001D41;
 	border-radius: 0px 0px 80px 0px;
+	font-family: 'Poppins', sans-serif;
 }
 .circle {
 	position: relative;
@@ -15,7 +22,7 @@
 }
 .saying {
 	position: relative;
-	top: 12vh;
+	top: 6vh;
 	left: 10vw;
 	color: white;
 	font-size: 4.5rem;
@@ -23,6 +30,7 @@
 }
 .quote {
 	position: relative;
+	top: -12vh;
 	left: 8vw;
 	color: #41CBAF;
 	font-size: 7rem;
@@ -30,4 +38,54 @@
 	z-index: 2;
 	line-height: 20rem;
 	float: left;
+}
+
+.right{
+	padding: 5vw;
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+}
+.slider {
+	overflow: hidden;
+	height: 400px;
+}
+.figure div{
+	float: left;
+	width: 20%
+}
+.text {
+	width: 100%;
+	float: left;
+}
+@media only screen and (max-width: 600px) {
+	.box {
+		flex-direction: column;
+	}
+	.rightBlob {
+		width: 90vw;
+		height: 35vh;
+		border-radius: 0px 0px 80px 0px;
+		z-index: -1;
+	}
+	.circle {
+		position: relative;
+		height: 100px;
+		width: 100px;
+		top: 2vh;
+		z-index: -1
+	}
+	.quote{
+		position: relative;
+		top: -30vh;
+		z-index: -1
+	}
+	.saying {
+		font-size: 2.5rem;
+		position: relative;
+		top: -9vh;
+	}
+	.right {
+		width: 95vw;
+	}
 }

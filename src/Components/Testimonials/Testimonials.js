@@ -1,9 +1,13 @@
 import React from 'react';
 import styles from './Testimonials.module.css';
 
+import Carousel from "./carousel/Carousel";
+import Card from "./card/Card";
+import carouselArray from "../../assets/data/carouselData2";
+
 function Testimonials() {
 	return(
-		<div>
+		<div className={styles.box}>
 			<div className={styles.rightBlob}>
 				<div>
 					<div className={styles.circle}></div>
@@ -15,8 +19,20 @@ function Testimonials() {
 					</h3>
 				</div>
 			</div>
-			<div>
-				
+			<div className={styles.right}>
+				<Carousel>
+			        {carouselArray.map((c, index) => {
+			          return (
+			            <Card
+			              heading={c.heading}
+			              subHeading={c.subHeading}
+			              para={c.para}
+			              position={c.position}
+			              img={c.img}
+			            />
+			          );
+			        })}
+			      </Carousel>
 			</div>
 		</div>
 	);

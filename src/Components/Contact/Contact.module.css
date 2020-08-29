@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;900&display=swap');
 
-
 .display {
 	position: relative;
 	top: 200px;
@@ -8,12 +7,14 @@
 	display: flex;
 	flex-direction: column;
 	width: 50vw;
+	font-family: 'Poppins', sans-serif;
 }
 
 .text{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	font-family: 'Poppins', sans-serif;
 }
 .subsub{
 	width: 40vw;
@@ -21,6 +22,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 0 30px 40px 0px; 
+	font-family: 'Poppins', sans-serif;
 }
 .q {
 	position: relative;
@@ -28,46 +30,95 @@
 	height: 206px;
 	left: 65px;
 	top: 180px;
+	font-family: 'Poppins', sans-serif;
 
 }
 .still {
 	font-size: 40px;
 	color: #CBCBCB;
 	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
 }
 .question {
 	font-size: 70px;
 	color: #000000;
 	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
 }
 .head {
 	color: #F48023;
 	font-size: 24px;
 	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
 }
 .bod {
 	color: #000;
 	font-size: 18px;
 	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
 }
 .map {
 	width: 30vw;
 	height: 30vw;
 	left: 0;
+	font-family: 'Poppins', sans-serif;
 }
 .mapAdjust {
 	width: 30vw;
 	height: 30vw;
+	font-family: 'Poppins', sans-serif;
 }
 .contact {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	font-family: 'Poppins', sans-serif;
 }
 
-@media(max-width: 640px;){
+@media only screen and (max-width: 600px) {
+	.q {
+		top: 20px;
+		left: 20px;
+	}
+	.still{
+		font-size: 1.25rem;
+	}
+	.question {
+		font-size: 2rem;
+	}
+	.contact{
+		flex-direction: column;
+		justify-content: space-around;
+	}
 	.display {
+		top: 0px;
 		width: 100vw;
 	}
+	.head {
+		font-size: 1.25rem;
+	}
+	.bod {
+		font-size: 0.85rem;
+	}
+	.text {
+		margin: 0;
+		padding: 0;
+	}
+	.subsub {
+		width: 75vw;
+		margin: 0;
+		padding: 0;
+	}
+	.map {
+		display: flex;
+		width: 100vw;
+		height: 50vh;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+	.mapAdjust {
+		width: 60vw;
+		height: 30vh;
+	}
 }
-

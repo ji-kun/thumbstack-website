@@ -1,3 +1,6 @@
+.bgr{
+	background: lightblue;
+}
 .cards{
 	display: flex;
 	flex-wrap: wrap;
@@ -15,4 +18,12 @@
 	color: black;
 	font-weight: 500;
 	font-size: 3.5rem;
+}
+@media only screen and (max-width: 600px) {
+	.cards {
+		padding: 0px;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
 }

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;900&display=swap');
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.testimonial {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+.head{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.para{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: lightgrey;
+}
+.image{
+  border-radius: 50%;
+}
+.adjust {
+  width: 200px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card{
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+  }
+  .testimonial{
+    font-size: 1rem;
+  }
+  .head{
+     font-size: 0.7rem;
+  }
+  .para{
+     font-size: 0.7rem;
+  }
+  .adjust {
+    width: 150px;
+  }
+}

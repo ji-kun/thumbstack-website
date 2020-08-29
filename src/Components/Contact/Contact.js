@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar'
 import Home from '../../assets/maskGroup.png';
 import {BrowserRouter as Router,Link} from 'react-router-dom'
 import { Map, GoogleApiWrapper } from 'google-maps-react';
-
+ 
 function Contact() {
 	return(
 		<div>

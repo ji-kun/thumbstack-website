@@ -10,8 +10,7 @@ const Card = ({ bgColor, img, heading, subHeading, para }) => {
         className={styles.left}
         style={{ backgroundImage: `url("${img}")` }}
       />
-      <div className={styles.right}>
-        <h1 className={styles.heading2}>Our Projects</h1>
+      <div className={styles.right}> 
         <h1 className={styles.heading}>{heading}</h1>
         <h2 className={styles.sub_heading}>{subHeading}</h2>
         <p className={styles.para}>{para}</p>
