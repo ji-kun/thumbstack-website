@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Card.module.css";
-import {android} from "../../../assets/android.png";
-import {apple} from "../../../assets/company.png";
+import android from "../../../assets/android.png";
+import apple from "../../../assets/company.png";
 
 const Card = ({ bgColor, img, heading, subHeading, para }) => {
   return (
@@ -11,24 +11,26 @@ const Card = ({ bgColor, img, heading, subHeading, para }) => {
         style={{ backgroundImage: `url("${img}")` }}
       />
       <div className={styles.right}>
+        <h1 className={styles.heading2}>Our Projects</h1>
         <h1 className={styles.heading}>{heading}</h1>
         <h2 className={styles.sub_heading}>{subHeading}</h2>
         <p className={styles.para}>{para}</p>
-        <div className={styles.button_container}>
-          <button
+        <div className={styles.buttons}>
+          <div
             className={styles.button}
-            style={{ backgroundColor: bgColor }}
+            style={{ background: bgColor }}
           >
-            Download For
+            Download For -
             <img src={android} className={styles.imageAdjust}/>
-          </button>
-          <button
+          </div>
+          <div className={styles.separator}></div>
+          <div
             className={styles.button}
-            style={{ backgroundColor: bgColor }}
+            style={{ background: bgColor }}
           >
-            Download For 
+            Download For -  
             <img src={apple} className={styles.imageAdjust} />
-          </button>
+          </div>
         </div>
       </div>
     </div>

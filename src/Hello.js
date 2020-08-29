@@ -5,12 +5,10 @@ import logo from './assets/logo.png';
 import instagram from './assets/instagram.svg';
 import facebook from './assets/facebook.svg';
 import linkedin from './assets/linkedin.svg';
-import {BrowserRouter as Router,Link} from 'react-router-dom'
 
 function Hello() {
 	return (
 	  	<div className = {styles.Home}>
-	  	<Router>
 	  	  <div className={styles.logo}>
 	  	  	<img src={logo} className={styles.logoAdjust} />
 	  	  </div><br />
@@ -26,17 +24,16 @@ function Hello() {
 			  </div>
 		  </div>
 		  <div className={styles.social}>
-		  	<Link to="https://www.facebook.com/ThumbstackTechnologies">
+		  	<a href="https://www.facebook.com/ThumbstackTechnologies">
 		  		<img src={facebook} className={styles.socialicon} />
-		  	</Link>
-		  	<Link to="https://www.instagram.com/thumbstack_tech/">
+		  	</a>
+		  	<a href="https://www.instagram.com/thumbstack_tech/">
 		  		<img src={instagram} className={styles.socialicon} />
-		  	</Link>
-		  	<Link to="https://www.linkedin.com/company/thumbstacktechnologies">
+		  	</a>
+		  	<a href="https://www.linkedin.com/company/thumbstacktechnologies">
 		  		<img src={linkedin} className={styles.socialicon} />
-		  	</Link>
+		  	</a>
 		  </div>
-		  </Router>
 		</div>
 	);
 }

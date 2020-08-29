@@ -7,7 +7,7 @@ const carouselArray = [
   {
     img: img2,
     heading: "Our Projects",
-    subHeading: "Canadian Resta",
+    subHeading: "Canadian Restaurant",
     para:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     bgColor: "pink",
@@ -15,7 +15,7 @@ const carouselArray = [
   {
     img: img3,
     heading: "Our Projects",
-    subHeading: "Sloth",
+    subHeading: "ForLocal",
     para:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     bgColor: "pink",
@@ -26,15 +26,47 @@ const carouselArray = [
     subHeading: "Ping",
     para:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    bgColor: "pink",
+    bgColor: "#fc034e",
   },
   {
     img: img1,
     heading: "Our Projects",
-    subHeading: "For Local",
+    subHeading: "Sloth",
     para:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    bgColor: "pink",
+    bgColor: "#fc034e",
+  },
+  {
+    img: img2,
+    heading: "Our Projects",
+    subHeading: "Canadian Restaurant",
+    para:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    bgColor: "#fc034e",
+  },
+  {
+    img: img3,
+    heading: "Our Projects",
+    subHeading: "ForLocal",
+    para:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    bgColor: "#fc034e",
+  },
+  {
+    img: img4,
+    heading: "Our Projects",
+    subHeading: "Ping",
+    para:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    bgColor: "#fc034e",
+  },
+  {
+    img: img1,
+    heading: "Our Projects",
+    subHeading: "Sloth",
+    para:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    bgColor: "#fc034e",
   },
 ];
 export default carouselArray;

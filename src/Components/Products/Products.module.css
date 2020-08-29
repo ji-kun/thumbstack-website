@@ -3,9 +3,12 @@
   text-align: center;
 }
 
-/* .range {
-  width: 40%;
-} */
+.projects{
+  position: relative;
+  float: right;
+  top: 100px;
+  left: 500px;
+}
 
 .range::-moz-range-thumb,
 .range::-webkit-slider-runnable-track {

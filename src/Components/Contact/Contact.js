@@ -8,7 +8,6 @@ import { Map, GoogleApiWrapper } from 'google-maps-react';
 function Contact() {
 	return(
 		<div>
-			<Navbar />
 			<div className = {styles.q}>
 				<h2 className = {styles.still}>Still have a</h2>
 				<h2 className = {styles.question}>Question?</h2>

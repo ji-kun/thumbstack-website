@@ -1,0 +1,30 @@
+/*#F48023;*/
+.about{
+	display: flex;
+	flex-direction: row;
+}
+
+.textSection {
+	width: 30vw;
+	padding: 70px;
+}
+.crew {
+	font-size: 3rem;
+	font-weight: 500;
+}
+.whoHead {
+	padding-top: 100px;
+	color: #f48023;
+	font-size: 1.5rem;
+	font-weight: 400;
+
+}
+.whoBody {
+	padding-top: 30px;
+	font-size: 1.25rem;
+	font-weight: 400;
+}
+
+.contacts {
+
+}
