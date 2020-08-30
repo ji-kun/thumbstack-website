@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/thumbstack-website/static/css/main.ec152ff7.chunk.css",
-    "main.js": "/thumbstack-website/static/js/main.635dd003.chunk.js",
-    "main.js.map": "/thumbstack-website/static/js/main.635dd003.chunk.js.map",
+    "main.css": "/thumbstack-website/static/css/main.91790a9b.chunk.css",
+    "main.js": "/thumbstack-website/static/js/main.ab0ff297.chunk.js",
+    "main.js.map": "/thumbstack-website/static/js/main.ab0ff297.chunk.js.map",
     "runtime-main.js": "/thumbstack-website/static/js/runtime-main.69b97a58.js",
     "runtime-main.js.map": "/thumbstack-website/static/js/runtime-main.69b97a58.js.map",
-    "static/js/2.def7074b.chunk.js": "/thumbstack-website/static/js/2.def7074b.chunk.js",
-    "static/js/2.def7074b.chunk.js.map": "/thumbstack-website/static/js/2.def7074b.chunk.js.map",
+    "static/js/2.2d668560.chunk.js": "/thumbstack-website/static/js/2.2d668560.chunk.js",
+    "static/js/2.2d668560.chunk.js.map": "/thumbstack-website/static/js/2.2d668560.chunk.js.map",
     "index.html": "/thumbstack-website/index.html",
-    "precache-manifest.aa24d2b9d425b67b4a67757f12a923c7.js": "/thumbstack-website/precache-manifest.aa24d2b9d425b67b4a67757f12a923c7.js",
+    "precache-manifest.3b28aede9dff06e18a8600522bd618fe.js": "/thumbstack-website/precache-manifest.3b28aede9dff06e18a8600522bd618fe.js",
     "service-worker.js": "/thumbstack-website/service-worker.js",
-    "static/css/main.ec152ff7.chunk.css.map": "/thumbstack-website/static/css/main.ec152ff7.chunk.css.map",
-    "static/js/2.def7074b.chunk.js.LICENSE.txt": "/thumbstack-website/static/js/2.def7074b.chunk.js.LICENSE.txt",
+    "static/css/main.91790a9b.chunk.css.map": "/thumbstack-website/static/css/main.91790a9b.chunk.css.map",
+    "static/js/2.2d668560.chunk.js.LICENSE.txt": "/thumbstack-website/static/js/2.2d668560.chunk.js.LICENSE.txt",
     "static/media/Group 7.png": "/thumbstack-website/static/media/Group 7.7200ef72.png",
     "static/media/Group 8.png": "/thumbstack-website/static/media/Group 8.be60abec.png",
     "static/media/Group8.jpg": "/thumbstack-website/static/media/Group8.057339a2.jpg",
     "static/media/Group9.jpg": "/thumbstack-website/static/media/Group9.c2e71451.jpg",
+    "static/media/akash.png": "/thumbstack-website/static/media/akash.4c0253fb.png",
     "static/media/bv.png": "/thumbstack-website/static/media/bv.144d70af.png",
     "static/media/dbs.png": "/thumbstack-website/static/media/dbs.f5c7d25b.png",
     "static/media/facebook.svg": "/thumbstack-website/static/media/facebook.82b27172.svg",
@@ -27,14 +28,17 @@
     "static/media/linkedin.svg": "/thumbstack-website/static/media/linkedin.6934d4c4.svg",
     "static/media/logo.png": "/thumbstack-website/static/media/logo.f991f51a.png",
     "static/media/maskGroup.png": "/thumbstack-website/static/media/maskGroup.40134cc6.png",
+    "static/media/Card.module.css": "/thumbstack-website/static/media/mobile.ddce60fa.jpeg",
     "static/media/mountmusic.png": "/thumbstack-website/static/media/mountmusic.4b53bcac.png",
     "static/media/nexus.png": "/thumbstack-website/static/media/nexus.f3fe85a4.png",
-    "static/media/pristine.png": "/thumbstack-website/static/media/pristine.fe777fd7.png"
+    "static/media/pradosh.png": "/thumbstack-website/static/media/pradosh.9196cebe.png",
+    "static/media/pristine.png": "/thumbstack-website/static/media/pristine.fe777fd7.png",
+    "static/media/rizwan.png": "/thumbstack-website/static/media/rizwan.366e76c1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.69b97a58.js",
-    "static/js/2.def7074b.chunk.js",
-    "static/css/main.ec152ff7.chunk.css",
-    "static/js/main.635dd003.chunk.js"
+    "static/js/2.2d668560.chunk.js",
+    "static/css/main.91790a9b.chunk.css",
+    "static/js/main.ab0ff297.chunk.js"
   ]
 }

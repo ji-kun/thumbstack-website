@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/thumbstack-website/precache-manifest.aa24d2b9d425b67b4a67757f12a923c7.js"
+  "/thumbstack-website/precache-manifest.3b28aede9dff06e18a8600522bd618fe.js"
 );
 
 self.addEventListener('message', (event) => {

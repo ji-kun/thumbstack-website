@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44c720e90ed2e3d85ca8d84549a19c6a",
+    "revision": "568c5223b084049363fd1b2033d16f1b",
     "url": "/thumbstack-website/index.html"
   },
   {
-    "revision": "65510284a5b4af0b3cf5",
-    "url": "/thumbstack-website/static/css/main.ec152ff7.chunk.css"
+    "revision": "034872a205397cbe337d",
+    "url": "/thumbstack-website/static/css/main.91790a9b.chunk.css"
   },
   {
-    "revision": "eeb2bfc7d0fa2accb63e",
-    "url": "/thumbstack-website/static/js/2.def7074b.chunk.js"
+    "revision": "1ec2f2627c044e7e90ba",
+    "url": "/thumbstack-website/static/js/2.2d668560.chunk.js"
   },
   {
-    "revision": "0ff773abdb301003272581a2918ee4a1",
-    "url": "/thumbstack-website/static/js/2.def7074b.chunk.js.LICENSE.txt"
+    "revision": "90557f46eab5f97fe6922971bf2d4111",
+    "url": "/thumbstack-website/static/js/2.2d668560.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "65510284a5b4af0b3cf5",
-    "url": "/thumbstack-website/static/js/main.635dd003.chunk.js"
+    "revision": "034872a205397cbe337d",
+    "url": "/thumbstack-website/static/js/main.ab0ff297.chunk.js"
   },
   {
     "revision": "d6d79e73096b1504f8bc",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c2e71451a54d6eca52a7b603313c42b2",
     "url": "/thumbstack-website/static/media/Group9.c2e71451.jpg"
+  },
+  {
+    "revision": "4c0253fbaae51d586ca99d2c873da444",
+    "url": "/thumbstack-website/static/media/akash.4c0253fb.png"
   },
   {
     "revision": "144d70af2c532881e7f99677cccd0e8c",
@@ -84,6 +88,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/thumbstack-website/static/media/maskGroup.40134cc6.png"
   },
   {
+    "revision": "ddce60fa764b35c293030770c146e001",
+    "url": "/thumbstack-website/static/media/mobile.ddce60fa.jpeg"
+  },
+  {
     "revision": "4b53bcacf1af942b50c55d090b514efa",
     "url": "/thumbstack-website/static/media/mountmusic.4b53bcac.png"
   },
@@ -92,7 +100,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/thumbstack-website/static/media/nexus.f3fe85a4.png"
   },
   {
+    "revision": "9196cebea4d29ef25a10438d3cccee70",
+    "url": "/thumbstack-website/static/media/pradosh.9196cebe.png"
+  },
+  {
     "revision": "fe777fd739f414a5963133fa6de22638",
     "url": "/thumbstack-website/static/media/pristine.fe777fd7.png"
+  },
+  {
+    "revision": "366e76c15f5551b1c7014c08b998dce1",
+    "url": "/thumbstack-website/static/media/rizwan.366e76c1.png"
   }
 ]);
