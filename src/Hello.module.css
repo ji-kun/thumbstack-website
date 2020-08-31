@@ -14,9 +14,15 @@
   height: 90vw;
   display: flex;
 }
+.nav{
+  align-self: flex-end;
+  justify-content: flex-end;
+}
 .logo{
+  display: flex;
   padding: 20px 0 0 20px;
   height: 10vh;
+  justify-content: space-between;
 }
 .logoAdjust{
   height: 5vh;

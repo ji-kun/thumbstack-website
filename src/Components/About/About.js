@@ -1,10 +1,12 @@
 import React from 'react';
 import styles from './About.module.css';
 import contactcard from './contactcard'
+import Navbar2 from '../Navbar/Navbar2/Navbar2';
 
 function About() {
 	return(
 		<div className={styles.about}>
+			<Navbar2 />
 			<div className={styles.textSection}>
 					<h2 className={styles.crew}>
 						The Creative Crew behind Thumbstack Technologies.

@@ -2,10 +2,12 @@ import React from 'react';
 import styles from './Services.module.css';
 import Card from './Card';
 import Home from '../../assets/hero.jpg';
+import Navbar2 from '../Navbar/Navbar2/Navbar2';
 
 function Services() {
 	return(
 		<div className={styles.bgr}>
+			<Navbar2 />
 			<div className={styles.head}>
 				<h1 className={styles.heading}>Services</h1>
 			</div>

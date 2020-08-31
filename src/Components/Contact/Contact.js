@@ -2,12 +2,14 @@ import React from 'react';
 import styles from './Contact.module.css';
 import Navbar from '../Navbar/Navbar'
 import Home from '../../assets/maskGroup.png';
+import Navbar2 from '../Navbar/Navbar2/Navbar2';
 import {BrowserRouter as Router,Link} from 'react-router-dom'
 import { Map, GoogleApiWrapper } from 'google-maps-react';
  
 function Contact() {
 	return(
 		<div>
+			<Navbar2 />
 			<div className = {styles.q}>
 				<h2 className = {styles.still}>Still have a</h2>
 				<h2 className = {styles.question}>Question?</h2>
@@ -62,6 +64,9 @@ function Contact() {
 				<div className = {styles.map}>
 						<a href="https://www.google.com/maps/place/Matru+Shraddha+Housing+Society/@19.2057739,72.9547459,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7b920ae5010a9:0x3ab0d5d2665afef1!8m2!3d19.2057739!4d72.9569346">
 							<img src={Home} className={styles.mapAdjust} />
+							<h3 className = {styles.bod2}>
+								Find us on Google Maps!
+							</h3>
 						</a>
 				</div>
 			</div>

@@ -57,6 +57,17 @@
 	font-weight: 400;
 	font-family: 'Poppins', sans-serif;
 }
+.bod2 {
+	float: right;
+	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+}
+.bod2:hover {
+	transform: scale(1.2);
+	transition: all ease 0.3s;
+}
 .map {
 	width: 30vw;
 	height: 30vw;

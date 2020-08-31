@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './App.module.css';
 import Hello from './Hello';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
-import Navbar from './Components/Navbar/Navbar';
+import Navbar2 from './Components/Navbar/Navbar2/Navbar2';
 import Services from './Components/Services/Services';
 import About from './Components/About/About';
 import Clientele from './Components/Clientele/Clientele';
@@ -31,6 +31,7 @@ function App() {
 			    <a href="#sectionTwo"></a>
 			    <a href="#sectionThree"></a>
 			    <a href="#sectionFour"></a>
+			    <Navbar2 />
 			  </Header>
 		  <Footr />
 		  <SectionsContainer {...options}>

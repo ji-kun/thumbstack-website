@@ -1,43 +1,42 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import styles from './menu.module.css';
+import logo from '../../assets/logo.png';
+import styles from './Navbar2.module.css';
 
-class Nav extends Component {
+import Toggle from './DrawerToggle';
+import SideDrawer from './SideDrawer';
 
-  constructor(props){
-    super(props);
-    this.state={
-    }
-  }
+class Navbar extends Component {
 
-  toggleNavView=()=>{
-	    document.getElementById('menu').classList.toggle('shownav');
-		document.getElementsByClassName(styles.burgers)[0].classList.toggle('open');
-  }
+	state = {
+		sideDrawerOpen: false,
+	}
 
-  clickOnSign=()=>{
-  	this.toggleNavView();
-  	this.props.logOut();
-  }
+	drawerToggleClickHandler = () => {
+		this.setState((prevState) => {
+			return {sideDrawerOpen: !prevState.sideDrawerOpen};
+		});
+	};
 
-  render() {
-    return (
-	   	<div className={styles.main_nav_div}>
-			<button className={styles.burgers} onClick={this.toggleNavView} />
-			<label aria-hidden="true" onClick={this.toggleNavView} id="labeel" />
+	render(){
+		let sideDrawer;
+		let backdrop;
 
-			<nav id="menu" className={styles.main_nav_nav}>
-				
-				<Link to="/" onClick={this.toggleNavView}>HOME</Link>
-				<Link onClick={this.toggleNavView} to="/about">ABOUT</Link>
-				<Link onClick={this.toggleNavView} to="/services">SERVICES</Link>
-				<Link onClick={this.toggleNavView} to="/contact">CONTACT US</Link>
-				<div>
-			  	</div> 
+		if(this.state.sideDrawerOpen) {
+			sideDrawer = < SideDrawer/>
+		}
+
+		return (
+	   	<header className={styles.nav}>
+	   		<nav className={styles.navigation}>
+	   			<div>
+	   				<Toggle drawerClickHandler={this.drawerToggleClickHandler}/>
+	   				{sideDrawer}
+	   			</div>
 			</nav>
-		</div>
+		</header>
     );
-  }
+	}
 }
 
-export default Nav;
+export default Navbar;
